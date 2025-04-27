@@ -1,0 +1,14 @@
+User Account Management Commands:-
+
+-> useradd  -> useradd <username>  -> useradd -g <group_name> -s /bin/bash -c "descripion" -m -d /home/<user_name>
+-> userdel
+-> usermod
+-> groupadd
+-> groupdel
+
+
+Files:
+
+-> /etc/passwd
+-> /etc/group
+-> /etc/shadow

@@ -1,0 +1,34 @@
+->git config --global user.name "Myname"
+
+->git config --global user.email "anandmudgal04gmail.com"
+
+->git config --list
+
+
+CLONE & STATUS COMMANDS:
+
+->git clone <some link> --> cloning a repository in our local machine.
+-> git status --> display the status of code
+
+
+ADD & COMMIT COMANDS:
+
+-> git add <filename> or if we want to add all file from working area to staging area so we do like ->git add .
+
+-> git commit -m "comments"
+
+
+PUSH COMMAND:
+
+->git push origin main ->upload local repo content to remote repo in GitHub
+
+
+
+GIT INIT COMMAND:
+
+->git init
+->git remote add origin<link>
+->git remote -v(to verify remote)
+->git branch
+->git branch -M main(to rename branch)
+->git push origin main
